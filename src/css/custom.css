@@ -1,0 +1,71 @@
+:root {
+  --ifm-color-primary: #1d7a4c;
+  --ifm-color-primary-dark: #196d44;
+  --ifm-color-primary-darker: #176740;
+  --ifm-color-primary-darkest: #135535;
+  --ifm-color-primary-light: #218754;
+  --ifm-color-primary-lighter: #238d58;
+  --ifm-color-primary-lightest: #279f63;
+  --ifm-font-family-base: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --ifm-heading-font-family: Georgia, "Times New Roman", serif;
+  --ifm-navbar-height: 72px;
+  --ifm-background-color: #fbfcfa;
+  --ifm-footer-background-color: #142019;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fbfcfa;
+  color: #26362c;
+}
+
+.navbar {
+  box-shadow: 0 1px 0 rgba(27, 42, 33, 0.08);
+}
+
+.navbar__brand {
+  font-family: var(--ifm-heading-font-family);
+  font-size: 1.22rem;
+}
+
+.navbar__logo {
+  height: 36px;
+}
+
+.navbar-whatsapp {
+  margin-left: 8px;
+  padding: 9px 16px !important;
+  border-radius: 999px;
+  background: #1d7a4c;
+  color: #fff !important;
+}
+
+.navbar-whatsapp:hover {
+  background: #176740;
+}
+
+.footer {
+  padding-bottom: 100px;
+}
+
+.footer__title {
+  color: #d7b66d;
+}
+
+.footer__link-item {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.footer__copyright {
+  color: rgba(255, 255, 255, 0.56);
+}
+
+@media (max-width: 996px) {
+  .navbar-whatsapp {
+    margin: 8px 12px;
+    text-align: center;
+  }
+}

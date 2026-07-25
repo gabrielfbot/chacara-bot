@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gabrielfbot.github.io/chacara-bot/sitemap.xml
