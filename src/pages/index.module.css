@@ -805,3 +805,44 @@
 }
 
 
+
+
+/* Ajuste fino da paleta azul */
+.heroPrimaryButton,
+.whatsappButton,
+.ctaButton,
+.primaryButton {
+  background: #173B6D !important;
+  border-color: #173B6D !important;
+  color: #ffffff !important;
+}
+
+.heroPrimaryButton:hover,
+.whatsappButton:hover,
+.ctaButton:hover,
+.primaryButton:hover {
+  background: #1E4F91 !important;
+  border-color: #1E4F91 !important;
+}
+
+.heroSecondaryButton,
+.secondaryButton {
+  border-color: rgba(255,255,255,0.6) !important;
+  color: #ffffff !important;
+}
+
+.heroSecondaryButton:hover,
+.secondaryButton:hover {
+  border-color: #ffffff !important;
+}
+
+.floatingWhatsappButton,
+.floatingButton {
+  background: #173B6D !important;
+  color: #ffffff !important;
+}
+
+.sectionEyebrow,
+.highlightText {
+  color: #D6A84F !important;
+}

@@ -97,3 +97,68 @@ body {
     max-width: 92px;
   }
 }
+
+
+/* Navbar azul */
+.navbar__link:hover,
+.navbar__link--active {
+  color: #173B6D !important;
+}
+
+/* Bot?o do topo */
+.navbar .button,
+.navbar .navbar__item.button,
+.navbar .cta-button {
+  background: #173B6D !important;
+  border-color: #173B6D !important;
+  color: #ffffff !important;
+}
+
+.navbar .button:hover,
+.navbar .navbar__item.button:hover,
+.navbar .cta-button:hover {
+  background: #1E4F91 !important;
+  border-color: #1E4F91 !important;
+}
+
+
+/* For?a identidade azul */
+.navbar__link,
+.menu__link {
+  color: #173B6D;
+}
+
+.navbar__link:hover,
+.navbar__link--active,
+.menu__link:hover,
+.menu__link--active {
+  color: #1E4F91 !important;
+}
+
+button,
+.button,
+.navbar .button,
+.navbar .navbar__item.button,
+.cta-button,
+.heroPrimaryButton,
+.primaryButton,
+.whatsappButton,
+.floatingWhatsappButton {
+  background: #173B6D !important;
+  border-color: #173B6D !important;
+  color: #ffffff !important;
+}
+
+button:hover,
+.button:hover,
+.navbar .button:hover,
+.navbar .navbar__item.button:hover,
+.cta-button:hover,
+.heroPrimaryButton:hover,
+.primaryButton:hover,
+.whatsappButton:hover,
+.floatingWhatsappButton:hover {
+  background: #1E4F91 !important;
+  border-color: #1E4F91 !important;
+  color: #ffffff !important;
+}
