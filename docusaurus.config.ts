@@ -1,17 +1,17 @@
-﻿import type {Config} from '@docusaurus/types';
+import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const whatsappNumber = '5517991696958';
 
 const whatsappMessage =
-  'OlÃ¡, Andressa! Vi a pÃ¡gina da ChÃ¡cara Bot e gostaria de consultar a disponibilidade e agendar uma visita.';
+  'Olá, Andressa! Vi a página da Chácara Bot e gostaria de consultar a disponibilidade e agendar uma visita.';
 
 const whatsappUrl =
   `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
   
 const config: Config = {
-  title: 'ChÃ¡cara Bot',
-  tagline: 'Um espaÃ§o para reunir, celebrar e aproveitar',
+  title: 'Chácara Bot',
+  tagline: 'Um espaço para reunir, celebrar e aproveitar',
   favicon: 'img/favicon.svg',
 
   future: {
@@ -61,24 +61,24 @@ const config: Config = {
       {
         name: 'description',
         content:
-          'ConheÃ§a a ChÃ¡cara Bot: salÃ£o amplo, cozinha, piscina, deck e jardim. Consulte disponibilidade e agende uma visita pelo WhatsApp.',
+          'Conheça a Chácara Bot: salão amplo, cozinha, piscina, deck e jardim. Consulte disponibilidade e agende uma visita pelo WhatsApp.',
       },
       {
         name: 'keywords',
         content:
-          'chÃ¡cara para alugar, espaÃ§o para eventos, piscina, salÃ£o de festas, Ã¡rea de lazer, ChÃ¡cara Bot',
+          'chácara para alugar, espaço para eventos, piscina, salão de festas, área de lazer, Chácara Bot',
       },
     ],
     navbar: {
-      title: 'ChÃ¡cara Bot',
+      title: 'Chácara Bot',
       logo: {
-        alt: 'ChÃ¡cara Bot',
+        alt: 'Chácara Bot',
         src: 'img/logo.svg',
       },
       items: [
-        {to: '/#espaco', label: 'O espaÃ§o', position: 'right'},
+        {to: '/#espaco', label: 'O espaço', position: 'right'},
         {to: '/#galeria', label: 'Fotos', position: 'right'},
-        {to: '/#videos', label: 'VÃ­deos', position: 'right'},
+        {to: '/#videos', label: 'Vídeos', position: 'right'},
         {to: '/#manual', label: 'Manual', position: 'right'},
         {
           href: whatsappUrl,
@@ -92,12 +92,12 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'ChÃ¡cara Bot',
+          title: 'Chácara Bot',
           items: [
-            {label: 'O espaÃ§o', to: '/#espaco'},
+            {label: 'O espaço', to: '/#espaco'},
             {label: 'Galeria', to: '/#galeria'},
-            {label: 'VÃ­deos', to: '/#videos'},
-            {label: 'Manual de operaÃ§Ã£o', to: '/#manual'},
+            {label: 'Vídeos', to: '/#videos'},
+            {label: 'Manual de operação', to: '/#manual'},
           ],
         },
         {
@@ -110,7 +110,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Â© ${new Date().getFullYear()} ChÃ¡cara Bot. Todos os direitos reservados. PÃ¡gina desenvolvida pela Eletrobot Engenharia.`,
+      copyright: `© ${new Date().getFullYear()} Chácara Bot. Todos os direitos reservados. Página desenvolvida pela Eletrobot Engenharia.`,
     },
   } satisfies Preset.ThemeConfig,
 };
