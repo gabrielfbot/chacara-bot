@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="170"
+     height="64"
+     viewBox="0 0 170 64"
+     fill="none">
+
+  <rect x="0"
+        y="6"
+        width="52"
+        height="52"
+        rx="14"
+        fill="#173B6D"/>
+
+  <path d="M26 43V27"
+        stroke="#FFFFFF"
+        stroke-width="3"
+        stroke-linecap="round"/>
+
+  <path d="M26 32C18.8 32 14 27.2 14 20.6C21.2 20.6 26 25.4 26 32Z"
+        stroke="#FFFFFF"
+        stroke-width="3"
+        stroke-linejoin="round"/>
+
+  <path d="M26 35.2C33.2 35.2 38 30.4 38 23.8C30.8 23.8 26 28.6 26 35.2Z"
+        stroke="#FFFFFF"
+        stroke-width="3"
+        stroke-linejoin="round"/>
+
+  <text x="63"
+        y="26"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="17"
+        font-weight="700"
+        fill="#1F2937">Ch&#225;cara</text>
+
+  <text x="63"
+        y="47"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="19"
+        font-weight="800"
+        letter-spacing="1"
+        fill="#173B6D">BOT</text>
+</svg>
