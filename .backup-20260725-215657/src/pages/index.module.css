@@ -1,4 +1,4 @@
-﻿.hero {
+.hero {
   min-height: calc(100vh - var(--ifm-navbar-height));
   position: relative;
   display: flex;
@@ -461,10 +461,10 @@
   min-height: 52px;
   padding: 0 18px;
   border-radius: 999px;
-  background: #173b6d;
+  background: #1c9a58;
   color: #fff;
   font-weight: 800;
-  box-shadow: 0 14px 32px rgba(23, 59, 109, 0.34);
+  box-shadow: 0 14px 32px rgba(12, 88, 48, 0.34);
   transition: transform 180ms ease;
 }
 
@@ -618,7 +618,7 @@
   }
 }
 
-/* Paleta azul-marinho inspirada no Manual da ChÃ¡cara Bot */
+/* Paleta azul-marinho inspirada no Manual da Chácara Bot */
 .manualSection {
   padding-top: 32px;
 }
@@ -757,12 +757,10 @@
 }
 
 .developerCredit img {
-  width: 180px;
-  height: 90px;
-  padding: 6px;
-  border-radius: 12px;
-  object-fit: contain;
-  background: #fff;
+  width: 96px;
+  height: 96px;
+  border-radius: 14px;
+  object-fit: cover;
 }
 
 .developerCredit span {
@@ -803,5 +801,3 @@
     text-align: center;
   }
 }
-
-

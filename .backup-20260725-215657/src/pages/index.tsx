@@ -1,4 +1,4 @@
-﻿import React, {useState} from 'react';
+import React, {useState} from 'react';
 import Layout from '@theme/Layout';
 import Head from '@docusaurus/Head';
 import Link from '@docusaurus/Link';
@@ -102,11 +102,11 @@ function Gallery() {
             className={styles.lightboxClose}
             onClick={() => setSelectedImage(null)}
             aria-label="Fechar foto">
-            Ã—
+            ×
           </button>
           <img
             src={withBaseUrl(selectedImage)}
-            alt="Foto ampliada da ChÃ¡cara Bot"
+            alt="Foto ampliada da Chácara Bot"
             onClick={(event) => event.stopPropagation()}
           />
         </div>
@@ -137,7 +137,7 @@ export default function Home(): React.JSX.Element {
   return (
     <Layout
       title="Aluguel para lazer e eventos"
-      description="ConheÃ§a a ChÃ¡cara Bot e agende uma visita pelo WhatsApp.">
+      description="Conheça a Chácara Bot e agende uma visita pelo WhatsApp.">
       <Head>
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
@@ -150,7 +150,7 @@ export default function Home(): React.JSX.Element {
           style={{backgroundImage: `url("${heroImage}")`}}>
           <div className={styles.heroOverlay} />
           <div className={styles.heroContent}>
-            <span className={styles.eyebrow}>ChÃ¡cara para locaÃ§Ã£o</span>
+            <span className={styles.eyebrow}>Chácara para locação</span>
             <h1>{siteData.headline}</h1>
             <p>{siteData.description}</p>
             <div className={styles.heroActions}>
@@ -167,40 +167,40 @@ export default function Home(): React.JSX.Element {
               </Link>
             </div>
             <p className={styles.heroNote}>
-              Consulte datas, valores, capacidade e localizaÃ§Ã£o pelo WhatsApp.
+              Consulte datas, valores, capacidade e localização pelo WhatsApp.
             </p>
           </div>
         </header>
 
         <section id="espaco" className={styles.section}>
           <div className={styles.sectionHeading}>
-            <span>ConheÃ§a o espaÃ§o</span>
+            <span>Conheça o espaço</span>
             <h2>Ambientes pensados para aproveitar o dia inteiro</h2>
             <p>
-              A estrutura reÃºne Ã¡reas internas e externas em um mesmo espaÃ§o,
-              com ambientes integrados e diferentes opÃ§Ãµes para receber seus convidados.
+              A estrutura reúne áreas internas e externas em um mesmo espaço,
+              com ambientes integrados e diferentes opções para receber seus convidados.
             </p>
           </div>
 
           <div className={styles.featureGrid}>
             <article className={styles.featureCard}>
               <Icon name="hall" />
-              <h3>SalÃ£o amplo</h3>
-              <p>Ambiente coberto, espaÃ§oso e integrado Ã  Ã¡rea externa.</p>
+              <h3>Salão amplo</h3>
+              <p>Ambiente coberto, espaçoso e integrado à área externa.</p>
             </article>
             <article className={styles.featureCard}>
               <Icon name="pool" />
               <h3>Piscina e deck</h3>
-              <p>Ãrea de lazer aberta, com deck ao redor da piscina.</p>
+              <p>Área de lazer aberta, com deck ao redor da piscina.</p>
             </article>
             <article className={styles.featureCard}>
               <Icon name="kitchen" />
               <h3>Cozinha e bancada</h3>
-              <p>EspaÃ§o interno com cozinha, bancada e Ã¡rea para refeiÃ§Ãµes.</p>
+              <p>Espaço interno com cozinha, bancada e área para refeições.</p>
             </article>
             <article className={styles.featureCard}>
               <Icon name="garden" />
-              <h3>Jardim e Ã¡rea verde</h3>
+              <h3>Jardim e área verde</h3>
               <p>Gramado e paisagismo para complementar os momentos ao ar livre.</p>
             </article>
           </div>
@@ -209,13 +209,13 @@ export default function Home(): React.JSX.Element {
         <section className={`${styles.section} ${styles.occasionSection}`}>
           <div className={styles.occasionContent}>
             <div>
-              <span className={styles.occasionTag}>Um espaÃ§o, muitas possibilidades</span>
-              <h2>Ideal para reunir pessoas e criar boas lembranÃ§as</h2>
+              <span className={styles.occasionTag}>Um espaço, muitas possibilidades</span>
+              <h2>Ideal para reunir pessoas e criar boas lembranças</h2>
             </div>
             <div className={styles.occasionChips}>
-              <span>ConfraternizaÃ§Ãµes</span>
-              <span>AniversÃ¡rios</span>
-              <span>Encontros em famÃ­lia</span>
+              <span>Confraternizações</span>
+              <span>Aniversários</span>
+              <span>Encontros em família</span>
               <span>Dias de lazer</span>
             </div>
           </div>
@@ -224,7 +224,7 @@ export default function Home(): React.JSX.Element {
         <section id="galeria" className={styles.section}>
           <div className={styles.sectionHeading}>
             <span>Galeria</span>
-            <h2>Veja cada detalhe da ChÃ¡cara Bot</h2>
+            <h2>Veja cada detalhe da Chácara Bot</h2>
             <p>Clique em uma imagem para ampliar.</p>
           </div>
           <Gallery />
@@ -232,28 +232,28 @@ export default function Home(): React.JSX.Element {
 
         <section id="videos" className={`${styles.section} ${styles.videoSection}`}>
           <div className={styles.sectionHeading}>
-            <span>TambÃ©m Ã  noite</span>
-            <h2>ConheÃ§a a iluminaÃ§Ã£o e a Ã¡rea externa</h2>
+            <span>Também à noite</span>
+            <h2>Conheça a iluminação e a área externa</h2>
           </div>
           <div className={styles.videoGrid}>
             <article className={styles.videoCard}>
               <video controls playsInline preload="metadata">
                 <source src={videoNight} type="video/mp4" />
-                Seu navegador nÃ£o suporta vÃ­deo.
+                Seu navegador não suporta vídeo.
               </video>
               <div>
-                <h3>Ãrea de lazer Ã  noite</h3>
-                <p>IluminaÃ§Ã£o do jardim e da piscina.</p>
+                <h3>Área de lazer à noite</h3>
+                <p>Iluminação do jardim e da piscina.</p>
               </div>
             </article>
             <article className={styles.videoCard}>
               <video controls playsInline preload="metadata">
                 <source src={videoOutdoor} type="video/mp4" />
-                Seu navegador nÃ£o suporta vÃ­deo.
+                Seu navegador não suporta vídeo.
               </video>
               <div>
-                <h3>Ãrea externa Ã  noite</h3>
-                <p>Vista noturna dos espaÃ§os externos.</p>
+                <h3>Área externa à noite</h3>
+                <p>Vista noturna dos espaços externos.</p>
               </div>
             </article>
           </div>
@@ -263,11 +263,11 @@ export default function Home(): React.JSX.Element {
         <section id="manual" className={`${styles.section} ${styles.manualSection}`}>
           <div className={styles.manualCard}>
             <div className={styles.manualContent}>
-              <span>Manual de operaÃ§Ã£o</span>
-              <h2>OrientaÃ§Ãµes para utilizar o espaÃ§o com seguranÃ§a</h2>
+              <span>Manual de operação</span>
+              <h2>Orientações para utilizar o espaço com segurança</h2>
               <p>
-                Consulte as instruÃ§Ãµes de funcionamento da bomba da caixa dâ€™Ã¡gua,
-                piscina, Wi-Fi e demais orientaÃ§Ãµes importantes para o perÃ­odo de locaÃ§Ã£o.
+                Consulte as instruções de funcionamento da bomba da caixa d’água,
+                piscina, Wi-Fi e demais orientações importantes para o período de locação.
               </p>
               <div className={styles.manualActions}>
                 <Link
@@ -286,8 +286,8 @@ export default function Home(): React.JSX.Element {
             </div>
             <div className={styles.manualCover} aria-hidden="true">
               <Icon name="book" />
-              <strong>Manual de operaÃ§Ã£o</strong>
-              <span>ChÃ¡cara Bot</span>
+              <strong>Manual de operação</strong>
+              <span>Chácara Bot</span>
             </div>
           </div>
         </section>
@@ -295,10 +295,10 @@ export default function Home(): React.JSX.Element {
         <section className={`${styles.section} ${styles.infoSection}`}>
           <div className={styles.infoCard}>
             <div>
-              <span>InformaÃ§Ãµes para locaÃ§Ã£o</span>
+              <span>Informações para locação</span>
               <h2>Consulte a disponibilidade da data</h2>
               <p>
-                Valores, capacidade, endereÃ§o e condiÃ§Ãµes de uso sÃ£o informados
+                Valores, capacidade, endereço e condições de uso são informados
                 diretamente no atendimento.
               </p>
             </div>
@@ -312,7 +312,7 @@ export default function Home(): React.JSX.Element {
                 <dd>{siteData.details.capacidade}</dd>
               </div>
               <div>
-                <dt>LocalizaÃ§Ã£o</dt>
+                <dt>Localização</dt>
                 <dd>{siteData.details.localizacao}</dd>
               </div>
             </dl>
@@ -321,10 +321,10 @@ export default function Home(): React.JSX.Element {
 
         <section className={styles.finalCta}>
           <div>
-            <span>Gostou do espaÃ§o?</span>
-            <h2>Marque um dia para conhecer a ChÃ¡cara Bot</h2>
+            <span>Gostou do espaço?</span>
+            <h2>Marque um dia para conhecer a Chácara Bot</h2>
             <p>
-              Fale pelo WhatsApp e consulte uma data para sua visita.
+              Fale com Gabriel pelo WhatsApp e consulte uma data para sua visita.
             </p>
           </div>
           <Link
@@ -337,10 +337,10 @@ export default function Home(): React.JSX.Element {
           </Link>
         </section>
 
-        <section className={styles.developerCredit} aria-label="CrÃ©ditos de desenvolvimento">
+        <section className={styles.developerCredit} aria-label="Créditos de desenvolvimento">
           <img src={eletrobotLogo} alt="Eletrobot Engenharia" />
           <div>
-            <span>PÃ¡gina desenvolvida pela</span>
+            <span>Página desenvolvida pela</span>
             <strong>Eletrobot Engenharia</strong>
           </div>
         </section>
@@ -358,5 +358,3 @@ export default function Home(): React.JSX.Element {
     </Layout>
   );
 }
-
-

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 60" role="img" aria-labelledby="title">
+  <title id="title">Chácara Bot</title>
+  <rect width="60" height="60" rx="18" fill="#1d7a4c"/>
+  <path d="M30 46V26M30 31c-9 0-14-5-14-13 8 0 14 5 14 13Zm0 5c9 0 14-5 14-13-8 0-14 5-14 13Z" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="72" y="27" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#1b2a21">Chácara</text>
+  <text x="72" y="48" font-family="Arial, sans-serif" font-size="16" font-weight="800" letter-spacing="2" fill="#1d7a4c">BOT</text>
+</svg>
