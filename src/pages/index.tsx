@@ -118,8 +118,8 @@ function Gallery() {
 export default function Home(): React.JSX.Element {
   const whatsappUrl = getWhatsappUrl();
   const heroImage = useBaseUrl('/img/galeria/01-capa-salao.webp');
-  const videoNight = useBaseUrl('/videos/17-area-de-lazer-a-noite-v2.mp4');
-  const videoOutdoor = useBaseUrl('/videos/18-area-externa-a-noite-v2.mp4');
+  const videoNight = useBaseUrl('/videos/17-area-de-lazer-a-noite-v3.mp4');
+  const videoOutdoor = useBaseUrl('/videos/18-area-externa-a-noite-v3.mp4');
   const manualUrl = useBaseUrl('/docs/manual-chacara-bot.pdf');
   const eletrobotLogo = useBaseUrl('/img/eletrobot-engenharia.png');
 
