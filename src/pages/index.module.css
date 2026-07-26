@@ -12,8 +12,8 @@
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, rgba(15, 22, 18, 0.88) 0%, rgba(15, 22, 18, 0.62) 48%, rgba(15, 22, 18, 0.14) 100%),
-    linear-gradient(0deg, rgba(15, 22, 18, 0.34), transparent 45%);
+    linear-gradient(90deg, rgba(8, 24, 47, 0.91) 0%, rgba(12, 42, 78, 0.68) 48%, rgba(12, 42, 78, 0.20) 100%),
+    linear-gradient(0deg, rgba(8, 24, 47, 0.38), transparent 45%);
 }
 
 .heroContent {
@@ -91,15 +91,15 @@
 }
 
 .primaryButton {
-  background: #1d7a4c;
+  background: #173b6d;
   color: #fff;
-  box-shadow: 0 14px 32px rgba(17, 98, 58, 0.32);
+  box-shadow: 0 14px 32px rgba(23, 59, 109, 0.34);
 }
 
 .primaryButton:hover {
   color: #fff;
   transform: translateY(-2px);
-  box-shadow: 0 18px 38px rgba(17, 98, 58, 0.4);
+  box-shadow: 0 18px 38px rgba(23, 59, 109, 0.42);
   text-decoration: none;
 }
 
@@ -151,7 +151,7 @@
 .finalCta h2,
 .occasionContent h2 {
   margin: 0;
-  color: #1b2a21;
+  color: #10284b;
   font-size: clamp(2rem, 4vw, 3.3rem);
   line-height: 1.08;
   letter-spacing: -0.045em;
@@ -161,7 +161,7 @@
 .infoCard p,
 .finalCta p {
   margin: 18px 0 0;
-  color: #5f6c64;
+  color: #5d6f89;
   font-size: 1.04rem;
   line-height: 1.75;
 }
@@ -175,27 +175,27 @@
 .featureCard {
   min-height: 230px;
   padding: 30px;
-  border: 1px solid #e7e9e6;
+  border: 1px solid #dde5ef;
   border-radius: 24px;
   background: #fff;
-  box-shadow: 0 16px 40px rgba(31, 46, 37, 0.06);
+  box-shadow: 0 16px 40px rgba(13, 35, 66, 0.07);
 }
 
 .featureCard .icon {
   width: 38px;
   height: 38px;
-  color: #1d7a4c;
+  color: #173b6d;
 }
 
 .featureCard h3 {
   margin: 28px 0 10px;
-  color: #1b2a21;
+  color: #10284b;
   font-size: 1.25rem;
 }
 
 .featureCard p {
   margin: 0;
-  color: #68746c;
+  color: #667792;
   line-height: 1.65;
 }
 
@@ -203,7 +203,7 @@
   width: 100%;
   max-width: none;
   padding: 0;
-  background: #1a2a20;
+  background: #0d2342;
 }
 
 .occasionContent {
@@ -251,9 +251,9 @@
   border: 0;
   border-radius: 20px;
   overflow: hidden;
-  background: #e8ece9;
+  background: #e5ebf3;
   cursor: zoom-in;
-  box-shadow: 0 12px 28px rgba(31, 46, 37, 0.08);
+  box-shadow: 0 12px 28px rgba(13, 35, 66, 0.09);
 }
 
 .galleryFeatured {
@@ -277,7 +277,7 @@
   content: '';
   position: absolute;
   inset: 55% 0 0;
-  background: linear-gradient(transparent, rgba(10, 18, 13, 0.76));
+  background: linear-gradient(transparent, rgba(7, 22, 43, 0.82));
   pointer-events: none;
 }
 
@@ -299,7 +299,7 @@
   display: grid;
   place-items: center;
   padding: 36px;
-  background: rgba(8, 12, 9, 0.94);
+  background: rgba(5, 15, 29, 0.96);
   backdrop-filter: blur(8px);
 }
 
@@ -330,7 +330,7 @@
   max-width: none;
   padding-left: max(20px, calc((100% - 1180px) / 2));
   padding-right: max(20px, calc((100% - 1180px) / 2));
-  background: #f2f4f1;
+  background: #edf2f8;
 }
 
 .videoGrid {
@@ -343,7 +343,7 @@
   overflow: hidden;
   border-radius: 24px;
   background: #fff;
-  box-shadow: 0 18px 44px rgba(31, 46, 37, 0.1);
+  box-shadow: 0 18px 44px rgba(13, 35, 66, 0.11);
 }
 
 .videoCard video {
@@ -351,7 +351,7 @@
   width: 100%;
   height: 560px;
   object-fit: cover;
-  background: #0f1712;
+  background: #081a32;
 }
 
 .videoCard > div {
@@ -360,12 +360,12 @@
 
 .videoCard h3 {
   margin: 0 0 8px;
-  color: #1b2a21;
+  color: #10284b;
 }
 
 .videoCard p {
   margin: 0;
-  color: #68746c;
+  color: #667792;
 }
 
 .infoSection {
@@ -382,7 +382,7 @@
   border-radius: 30px;
   background:
     radial-gradient(circle at 90% 10%, rgba(215, 182, 109, 0.18), transparent 32%),
-    #f4f1e9;
+    #eef3f9;
 }
 
 .detailsList {
@@ -390,7 +390,7 @@
   overflow: hidden;
   border-radius: 18px;
   background: #fff;
-  box-shadow: 0 16px 40px rgba(31, 46, 37, 0.08);
+  box-shadow: 0 16px 40px rgba(13, 35, 66, 0.09);
 }
 
 .detailsList > div {
@@ -398,7 +398,7 @@
   grid-template-columns: 110px 1fr;
   gap: 18px;
   padding: 18px 20px;
-  border-bottom: 1px solid #eceeea;
+  border-bottom: 1px solid #e3e9f1;
 }
 
 .detailsList > div:last-child {
@@ -406,13 +406,13 @@
 }
 
 .detailsList dt {
-  color: #68746c;
+  color: #667792;
   font-weight: 600;
 }
 
 .detailsList dd {
   margin: 0;
-  color: #1b2a21;
+  color: #10284b;
   font-weight: 800;
 }
 
@@ -425,9 +425,9 @@
   justify-content: space-between;
   gap: 40px;
   border-radius: 30px;
-  background: linear-gradient(120deg, rgba(27, 42, 33, 0.98), rgba(29, 122, 76, 0.94));
+  background: linear-gradient(120deg, rgba(13, 35, 66, 0.99), rgba(23, 59, 109, 0.96));
   color: #fff;
-  box-shadow: 0 24px 60px rgba(20, 65, 40, 0.24);
+  box-shadow: 0 24px 60px rgba(13, 35, 66, 0.28);
 }
 
 .finalCta h2 {
@@ -442,12 +442,12 @@
 .finalCta .primaryButton {
   flex: 0 0 auto;
   background: #fff;
-  color: #1d6a45;
+  color: #173b6d;
   box-shadow: none;
 }
 
 .finalCta .primaryButton:hover {
-  color: #1d6a45;
+  color: #173b6d;
 }
 
 .floatingWhatsapp {
@@ -511,7 +511,7 @@
 
   .heroOverlay {
     background:
-      linear-gradient(0deg, rgba(15, 22, 18, 0.94) 0%, rgba(15, 22, 18, 0.68) 58%, rgba(15, 22, 18, 0.2) 100%);
+      linear-gradient(0deg, rgba(6, 19, 37, 0.96) 0%, rgba(10, 35, 67, 0.74) 58%, rgba(10, 35, 67, 0.24) 100%);
   }
 
   .heroContent {
@@ -615,5 +615,189 @@
   .secondaryButton,
   .floatingWhatsapp {
     transition: none;
+  }
+}
+
+/* Paleta azul-marinho inspirada no Manual da Chácara Bot */
+.manualSection {
+  padding-top: 32px;
+}
+
+.manualCard {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(260px, 0.65fr);
+  gap: 56px;
+  align-items: center;
+  padding: 58px;
+  border-radius: 30px;
+  color: #fff;
+  background:
+    radial-gradient(circle at 88% 12%, rgba(246, 196, 31, 0.22), transparent 30%),
+    linear-gradient(135deg, #0d2342 0%, #173b6d 100%);
+  box-shadow: 0 26px 62px rgba(13, 35, 66, 0.22);
+}
+
+.manualContent > span,
+.developerCredit span {
+  display: block;
+  margin-bottom: 14px;
+  color: #f3c51c;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.manualContent h2 {
+  margin: 0;
+  color: #fff;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  line-height: 1.08;
+  letter-spacing: -0.04em;
+}
+
+.manualContent p {
+  max-width: 690px;
+  margin: 20px 0 0;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.04rem;
+  line-height: 1.75;
+}
+
+.manualActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 30px;
+}
+
+.manualPrimaryButton,
+.manualSecondaryButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 52px;
+  padding: 0 22px;
+  border-radius: 999px;
+  font-weight: 800;
+  text-decoration: none;
+  transition: transform 180ms ease, background 180ms ease;
+}
+
+.manualPrimaryButton {
+  background: #f3c51c;
+  color: #10284b;
+}
+
+.manualPrimaryButton:hover {
+  color: #10284b;
+  background: #ffd83d;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.manualSecondaryButton {
+  border: 1px solid rgba(255, 255, 255, 0.38);
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+}
+
+.manualSecondaryButton:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.15);
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.manualCover {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 26px;
+  background:
+    linear-gradient(rgba(13, 35, 66, 0.86), rgba(13, 35, 66, 0.92)),
+    repeating-linear-gradient(45deg, transparent 0 18px, rgba(255, 255, 255, 0.04) 18px 19px);
+  text-align: center;
+}
+
+.manualCover .icon {
+  width: 58px;
+  height: 58px;
+  color: #f3c51c;
+}
+
+.manualCover strong {
+  color: #fff;
+  font-size: 1.45rem;
+}
+
+.manualCover span {
+  color: rgba(255, 255, 255, 0.68);
+  font-weight: 700;
+}
+
+.developerCredit {
+  width: min(1180px, calc(100% - 40px));
+  margin: -54px auto 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  padding: 24px 28px;
+  border: 1px solid #dce4ef;
+  border-radius: 22px;
+  background: #fff;
+  box-shadow: 0 14px 34px rgba(13, 35, 66, 0.08);
+}
+
+.developerCredit img {
+  width: 96px;
+  height: 96px;
+  border-radius: 14px;
+  object-fit: cover;
+}
+
+.developerCredit span {
+  margin: 0 0 4px;
+  color: #5d7190;
+}
+
+.developerCredit strong {
+  display: block;
+  color: #10284b;
+  font-size: 1.3rem;
+}
+
+@media (max-width: 700px) {
+  .manualCard {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding: 34px 24px;
+  }
+
+  .manualActions {
+    flex-direction: column;
+  }
+
+  .manualPrimaryButton,
+  .manualSecondaryButton {
+    width: 100%;
+  }
+
+  .manualCover {
+    min-height: 220px;
+  }
+
+  .developerCredit {
+    width: min(100% - 28px, 1180px);
+    margin-top: -42px;
+    flex-direction: column;
+    text-align: center;
   }
 }

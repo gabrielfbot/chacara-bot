@@ -74,6 +74,7 @@ const config: Config = {
         {to: '/#espaco', label: 'O espaço', position: 'right'},
         {to: '/#galeria', label: 'Fotos', position: 'right'},
         {to: '/#videos', label: 'Vídeos', position: 'right'},
+        {to: '/#manual', label: 'Manual', position: 'right'},
         {
           href: whatsappUrl,
           label: 'Agendar visita',
@@ -91,6 +92,7 @@ const config: Config = {
             {label: 'O espaço', to: '/#espaco'},
             {label: 'Galeria', to: '/#galeria'},
             {label: 'Vídeos', to: '/#videos'},
+            {label: 'Manual de operação', to: '/#manual'},
           ],
         },
         {
@@ -103,7 +105,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `© ${new Date().getFullYear()} Chácara Bot. Todos os direitos reservados.`,
+      copyright: `© ${new Date().getFullYear()} Chácara Bot. Todos os direitos reservados. Página desenvolvida pela Eletrobot Engenharia.`,
     },
   } satisfies Preset.ThemeConfig,
 };

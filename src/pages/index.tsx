@@ -7,7 +7,7 @@ import {galleryItems} from '../data/gallery';
 import {getWhatsappUrl, siteData} from '../data/siteData';
 import styles from './index.module.css';
 
-function Icon({name}: {name: 'hall' | 'pool' | 'kitchen' | 'garden' | 'whatsapp' | 'calendar'}) {
+function Icon({name}: {name: 'hall' | 'pool' | 'kitchen' | 'garden' | 'whatsapp' | 'calendar' | 'book' | 'download'}) {
   const paths = {
     hall: (
       <>
@@ -42,6 +42,19 @@ function Icon({name}: {name: 'hall' | 'pool' | 'kitchen' | 'garden' | 'whatsapp'
       <>
         <path d="M6 2v4M18 2v4M3 9h18M5 4h14a2 2 0 0 1 2 2v15H3V6a2 2 0 0 1 2-2Z" />
         <path d="M8 13h3v3H8z" />
+      </>
+    ),
+    book: (
+      <>
+        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z" />
+      </>
+    ),
+    download: (
+      <>
+        <path d="M12 3v12" />
+        <path d="m7 10 5 5 5-5" />
+        <path d="M5 21h14" />
       </>
     ),
   };
@@ -107,6 +120,8 @@ export default function Home(): React.JSX.Element {
   const heroImage = useBaseUrl('/img/galeria/01-capa-salao.webp');
   const videoNight = useBaseUrl('/videos/17-area-de-lazer-a-noite.mp4');
   const videoOutdoor = useBaseUrl('/videos/18-area-externa-a-noite.mp4');
+  const manualUrl = useBaseUrl('/docs/manual-chacara-bot.pdf');
+  const eletrobotLogo = useBaseUrl('/img/eletrobot-engenharia.png');
 
   const structuredData = {
     '@context': 'https://schema.org',
@@ -244,6 +259,39 @@ export default function Home(): React.JSX.Element {
           </div>
         </section>
 
+
+        <section id="manual" className={`${styles.section} ${styles.manualSection}`}>
+          <div className={styles.manualCard}>
+            <div className={styles.manualContent}>
+              <span>Manual de operação</span>
+              <h2>Orientações para utilizar o espaço com segurança</h2>
+              <p>
+                Consulte as instruções de funcionamento da bomba da caixa d’água,
+                piscina, Wi-Fi e demais orientações importantes para o período de locação.
+              </p>
+              <div className={styles.manualActions}>
+                <Link
+                  className={styles.manualPrimaryButton}
+                  href={manualUrl}
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <Icon name="book" />
+                  Abrir o manual
+                </Link>
+                <a className={styles.manualSecondaryButton} href={manualUrl} download>
+                  <Icon name="download" />
+                  Baixar PDF
+                </a>
+              </div>
+            </div>
+            <div className={styles.manualCover} aria-hidden="true">
+              <Icon name="book" />
+              <strong>Manual de operação</strong>
+              <span>Chácara Bot</span>
+            </div>
+          </div>
+        </section>
+
         <section className={`${styles.section} ${styles.infoSection}`}>
           <div className={styles.infoCard}>
             <div>
@@ -287,6 +335,14 @@ export default function Home(): React.JSX.Element {
             <Icon name="calendar" />
             Consultar e agendar
           </Link>
+        </section>
+
+        <section className={styles.developerCredit} aria-label="Créditos de desenvolvimento">
+          <img src={eletrobotLogo} alt="Eletrobot Engenharia" />
+          <div>
+            <span>Página desenvolvida pela</span>
+            <strong>Eletrobot Engenharia</strong>
+          </div>
         </section>
       </main>
 

@@ -1,16 +1,17 @@
+
 :root {
-  --ifm-color-primary: #1d7a4c;
-  --ifm-color-primary-dark: #196d44;
-  --ifm-color-primary-darker: #176740;
-  --ifm-color-primary-darkest: #135535;
-  --ifm-color-primary-light: #218754;
-  --ifm-color-primary-lighter: #238d58;
-  --ifm-color-primary-lightest: #279f63;
+  --ifm-color-primary: #173b6d;
+  --ifm-color-primary-dark: #143561;
+  --ifm-color-primary-darker: #12325c;
+  --ifm-color-primary-darkest: #0f294b;
+  --ifm-color-primary-light: #1a4379;
+  --ifm-color-primary-lighter: #1c477f;
+  --ifm-color-primary-lightest: #225593;
   --ifm-font-family-base: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --ifm-heading-font-family: Georgia, "Times New Roman", serif;
   --ifm-navbar-height: 72px;
-  --ifm-background-color: #fbfcfa;
-  --ifm-footer-background-color: #142019;
+  --ifm-background-color: #f7f9fc;
+  --ifm-footer-background-color: #0d2342;
 }
 
 html {
@@ -18,12 +19,12 @@ html {
 }
 
 body {
-  background: #fbfcfa;
-  color: #26362c;
+  background: #f7f9fc;
+  color: #1a2e4d;
 }
 
 .navbar {
-  box-shadow: 0 1px 0 rgba(27, 42, 33, 0.08);
+  box-shadow: 0 1px 0 rgba(13, 35, 66, 0.1);
 }
 
 .navbar__brand {
@@ -39,12 +40,12 @@ body {
   margin-left: 8px;
   padding: 9px 16px !important;
   border-radius: 999px;
-  background: #1d7a4c;
+  background: #173b6d;
   color: #fff !important;
 }
 
 .navbar-whatsapp:hover {
-  background: #176740;
+  background: #102f58;
 }
 
 .footer {

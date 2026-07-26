@@ -3,15 +3,14 @@ export const siteData = {
   headline: 'Seu próximo momento especial começa aqui',
   description:
     'Um espaço acolhedor com salão amplo, cozinha integrada, piscina, deck e jardim para reunir pessoas e criar boas lembranças.',
-  whatsappNumber: '5517997870405',
-  whatsappDisplay: '(17) 99787-0405',
+  whatsappNumber: '5517991696958',
+  whatsappDisplay: '(17) 99169-6958',
   whatsappMessage:
-    'Olá, Gabriel! Vi a página da Chácara Bot e gostaria de consultar a disponibilidade e agendar uma visita.',
-  details: {
-    valor: 'Consulte pelo WhatsApp',
-    capacidade: 'Consulte pelo WhatsApp',
-    localizacao: 'Enviada durante o atendimento',
-  },
+    'Olá, Andressa! Vi a página da Chácara Bot e gostaria de consultar a disponibilidade e agendar uma visita.',
+ details: {
+  valor: 'Consulte pelo WhatsApp',
+  capacidade: 'Espaço para até 150 pessoas',
+  localizacao: 'Localização próxima à cidade, com acesso fácil e sem necessidade de pegar rodovia',
 };
 
 export const getWhatsappUrl = () =>
