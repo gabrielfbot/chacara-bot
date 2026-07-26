@@ -1,9 +1,14 @@
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
-const whatsappUrl =
-  'https://wa.me/5517997870405?text=Ol%C3%A1%2C%20Gabriel!%20Vi%20a%20p%C3%A1gina%20da%20Ch%C3%A1cara%20Bot%20e%20gostaria%20de%20consultar%20a%20disponibilidade%20e%20agendar%20uma%20visita.';
+const whatsappNumber = '5517991696958';
 
+const whatsappMessage =
+  'Olá, Andressa! Vi a página da Chácara Bot e gostaria de consultar a disponibilidade e agendar uma visita.';
+
+const whatsappUrl =
+  `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+  
 const config: Config = {
   title: 'Chácara Bot',
   tagline: 'Um espaço para reunir, celebrar e aproveitar',
