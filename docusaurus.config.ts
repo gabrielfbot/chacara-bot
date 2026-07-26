@@ -79,7 +79,12 @@ const config: Config = {
         {to: '/#espaco', label: 'O espaço', position: 'right'},
         {to: '/#galeria', label: 'Fotos', position: 'right'},
         {to: '/#videos', label: 'Vídeos', position: 'right'},
-        {to: '/#manual', label: 'Manual', position: 'right'},
+                {
+          href: '/chacara-bot/#disponibilidade',
+          label: 'Disponibilidade',
+          position: 'right',
+        },
+{to: '/#manual', label: 'Manual', position: 'right'},
         {
           href: whatsappUrl,
           label: 'Agendar visita',

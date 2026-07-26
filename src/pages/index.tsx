@@ -260,7 +260,47 @@ export default function Home(): React.JSX.Element {
         </section>
 
 
-        <section id="manual" className={`${styles.section} ${styles.manualSection}`}>
+        
+
+      {/* CALENDAR_SECTION_START */}
+      <section
+        id="disponibilidade"
+        className={styles.calendarSection}
+      >
+        <div className="container">
+          <div className={styles.calendarHeading}>
+            <span>CONSULTE ANTES DE RESERVAR</span>
+
+            <h2>Agenda de disponibilidade</h2>
+
+            <p>
+              {
+                'Confira os dias ocupados. Para confirmar uma data livre, entre em contato pelo WhatsApp.'
+              }
+            </p>
+          </div>
+
+          <div className={styles.calendarCard}>
+            <iframe
+              src="https://calendar.google.com/calendar/embed?height=650&wkst=1&ctz=America%2FSao_Paulo&showPrint=0&hl=pt_BR&title=Disponibilidade%20da%20Ch%C3%A1cara%20Bot&showTabs=0&showCalendars=0&showTz=0&src=Y2hhY2FyYWJvdEBnbWFpbC5jb20&color=%23039be5"
+              title="Agenda de disponibilidade da Ch?cara Bot"
+              className={styles.calendarFrame}
+              loading="lazy"
+              frameBorder="0"
+              scrolling="no"
+            />
+          </div>
+
+          <p className={styles.calendarNotice}>
+            {
+              'Os per?odos marcados como ocupado n?o est?o dispon?veis. Datas aparentemente livres devem ser confirmadas pelo WhatsApp.'
+            }
+          </p>
+        </div>
+      </section>
+      {/* CALENDAR_SECTION_END */}
+
+<section id="manual" className={`${styles.section} ${styles.manualSection}`}>
           <div className={styles.manualCard}>
             <div className={styles.manualContent}>
               <span>Manual de operação</span>
