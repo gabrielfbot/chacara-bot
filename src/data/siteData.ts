@@ -13,7 +13,7 @@ export const siteData = {
     valor: 'Consulte pelo WhatsApp',
     capacidade: 'Espaço para até 150 pessoas',
     localizacao:
-      'Localização próxima à cidade, com acesso fácil e sem necessidade de pegar rodovia',
+      'Jos\u00e9 Bonif\u00e1cio - SP, em local de f\u00e1cil acesso e sem necessidade de pegar rodovia',
   },
 };
 
