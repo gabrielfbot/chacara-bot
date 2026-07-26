@@ -1,10 +1,10 @@
-import type {Config} from '@docusaurus/types';
+﻿import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const whatsappNumber = '5517991696958';
 
 const whatsappMessage =
-  'Olá, Andressa! Vi a página da Chácara Bot e gostaria de consultar a disponibilidade e agendar uma visita.';
+  'OlÃ¡, Andressa! Vi a pÃ¡gina da Chácara Bot e gostaria de consultar a disponibilidade e agendar uma visita.';
 
 const whatsappUrl =
   `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
@@ -61,12 +61,12 @@ const config: Config = {
       {
         name: 'description',
         content:
-          'Conheça a Chácara Bot: salão amplo, cozinha, piscina, deck e jardim. Consulte disponibilidade e agende uma visita pelo WhatsApp.',
+          'ConheÃ§a a Chácara Bot: salão amplo, cozinha, piscina, área externa e jardim. Consulte disponibilidade e agende uma visita pelo WhatsApp.',
       },
       {
         name: 'keywords',
         content:
-          'chácara para alugar, espaço para eventos, piscina, salão de festas, área de lazer, Chácara Bot',
+          'chÃ¡cara para alugar, espaço para eventos, piscina, salão de festas, Ã¡rea de lazer, Chácara Bot',
       },
     ],
     navbar: {
@@ -110,10 +110,11 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `© ${new Date().getFullYear()} Chácara Bot. Todos os direitos reservados. Página desenvolvida pela Eletrobot Engenharia.`,
+      copyright: `Â© ${new Date().getFullYear()} Chácara Bot. Todos os direitos reservados. PÃ¡gina desenvolvida pela Eletrobot Engenharia.`,
     },
   } satisfies Preset.ThemeConfig,
 };
 
 export default config;
+
 

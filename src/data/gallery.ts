@@ -1,4 +1,4 @@
-export type GalleryItem = {
+﻿export type GalleryItem = {
   src: string;
   alt: string;
   caption: string;
@@ -8,45 +8,45 @@ export type GalleryItem = {
 export const galleryItems: GalleryItem[] = [
   {
     src: '/img/galeria/01-capa-salao.webp',
-    alt: 'Salão amplo e coberto da Chácara Bot',
-    caption: 'Salão amplo',
+    alt: 'SalÃ£o amplo e coberto da Chácara Bot',
+    caption: 'SalÃ£o amplo',
     featured: true,
   },
   {
     src: '/img/galeria/02-salao-eventos.webp',
-    alt: 'Salão preparado com mesas e cadeiras',
-    caption: 'Espaço para reunir',
+    alt: 'SalÃ£o preparado com mesas e cadeiras',
+    caption: 'EspaÃ§o para reunir',
     featured: true,
   },
   {
     src: '/img/galeria/08-piscina-vista-geral.webp',
-    alt: 'Piscina vista a partir do deck',
-    caption: 'Piscina e deck',
+    alt: 'Piscina vista a partir do área externa',
+    caption: 'Piscina e área externa',
     featured: true,
   },
   {
-    src: '/img/galeria/10-deck-coberto.webp',
-    alt: 'Deck coberto ao lado da área externa',
-    caption: 'Deck coberto',
+    src: '/img/galeria/10-área externa-coberto.webp',
+    alt: 'Área coberta ao lado da Ã¡rea externa',
+    caption: 'Área coberta',
   },
   {
     src: '/img/galeria/06-cozinha-bar.webp',
-    alt: 'Cozinha com bancada e iluminação pendente',
+    alt: 'Cozinha com bancada e iluminaÃ§Ã£o pendente',
     caption: 'Cozinha e bancada',
   },
   {
     src: '/img/galeria/07-area-refeicoes.webp',
-    alt: 'Área interna com mesas e cadeiras',
-    caption: 'Área de refeições',
+    alt: 'Ãrea interna com mesas e cadeiras',
+    caption: 'Ãrea de refeiÃ§Ãµes',
   },
   {
     src: '/img/galeria/03-salao-integrado.webp',
-    alt: 'Salão integrado com acesso à área externa',
+    alt: 'SalÃ£o integrado com acesso Ã  Ã¡rea externa',
     caption: 'Ambiente integrado',
   },
   {
     src: '/img/galeria/04-salao-vista-piscina.webp',
-    alt: 'Salão com portas de vidro voltadas para a piscina',
+    alt: 'SalÃ£o com portas de vidro voltadas para a piscina',
     caption: 'Vista para a piscina',
   },
   {
@@ -56,33 +56,33 @@ export const galleryItems: GalleryItem[] = [
   },
   {
     src: '/img/galeria/09-piscina-area-lazer.webp',
-    alt: 'Área da piscina em dia ensolarado',
-    caption: 'Área de lazer',
+    alt: 'Ãrea da piscina em dia ensolarado',
+    caption: 'Ãrea de lazer',
   },
   {
-    src: '/img/galeria/11-deck-e-jardim.webp',
-    alt: 'Deck externo com jardim e piscina ao fundo',
-    caption: 'Deck e jardim',
+    src: '/img/galeria/11-área externa-e-jardim.webp',
+    alt: 'Área externa externo com jardim e piscina ao fundo',
+    caption: 'Área externa e jardim',
   },
   {
     src: '/img/galeria/12-jardim-e-piscina.webp',
-    alt: 'Jardim gramado próximo à piscina',
+    alt: 'Jardim gramado próximo Ã  piscina',
     caption: 'Jardim gramado',
   },
   {
     src: '/img/galeria/13-jardim-area-lazer.webp',
-    alt: 'Jardim e área de lazer vistos a partir do deck',
-    caption: 'Área externa',
+    alt: 'Jardim e Ã¡rea de lazer vistos a partir do área externa',
+    caption: 'Ãrea externa',
   },
   {
     src: '/img/galeria/14-jardim-entrada.webp',
     alt: 'Jardim e caminho de acesso',
-    caption: 'Área verde',
+    caption: 'Ãrea verde',
   },
   {
     src: '/img/galeria/15-por-do-sol.webp',
-    alt: 'Pôr do sol visto a partir da Chácara Bot',
-    caption: 'Pôr do sol',
+    alt: 'PÃ´r do sol visto a partir da Chácara Bot',
+    caption: 'PÃ´r do sol',
   },
   {
     src: '/img/galeria/16-banheiro-interno.webp',
@@ -90,4 +90,5 @@ export const galleryItems: GalleryItem[] = [
     caption: 'Banheiro interno',
   },
 ];
+
 
