@@ -1,6 +1,7 @@
-<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="64" height="64" rx="16" fill="#173B6D"/>
-  <path d="M32 50V29" stroke="white" stroke-width="3.2" stroke-linecap="round"/>
-  <path d="M32 35C23 35 17 29 17 20C26 20 32 26 32 35Z" stroke="white" stroke-width="3.2" stroke-linejoin="round"/>
-  <path d="M32 39C41 39 47 33 47 24C38 24 32 30 32 39Z" stroke="white" stroke-width="3.2" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 60" role="img" aria-labelledby="title">
+  <title id="title">Chácara Bot</title>
+  <rect width="60" height="60" rx="18" fill="#1d7a4c"/>
+  <path d="M30 46V26M30 31c-9 0-14-5-14-13 8 0 14 5 14 13Zm0 5c9 0 14-5 14-13-8 0-14 5-14 13Z" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="72" y="27" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#1b2a21">Chácara</text>
+  <text x="72" y="48" font-family="Arial, sans-serif" font-size="16" font-weight="800" letter-spacing="2" fill="#1d7a4c">BOT</text>
 </svg>
