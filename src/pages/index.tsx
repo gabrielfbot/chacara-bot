@@ -292,9 +292,7 @@ export default function Home(): React.JSX.Element {
           </div>
 
           <p className={styles.calendarNotice}>
-            {
-              'Os per?odos marcados como ocupado n?o est?o dispon?veis. Datas aparentemente livres devem ser confirmadas pelo WhatsApp.'
-            }
+            Os períodos marcados como ocupado não estão disponíveis. Datas aparentemente livres devem ser confirmadas pelo WhatsApp.
           </p>
         </div>
       </section>

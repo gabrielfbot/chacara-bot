@@ -13,12 +13,6 @@ export const galleryItems: GalleryItem[] = [
     featured: true,
   },
   {
-    src: '/img/galeria/02-salao-eventos.webp',
-    alt: 'Salão preparado com mesas e cadeiras',
-    caption: 'Espaço para reunir',
-    featured: true,
-  },
-  {
     src: '/img/galeria/08-piscina-vista-geral.webp',
     alt: 'Piscina vista a partir da área externa',
     caption: 'Piscina e área externa',
