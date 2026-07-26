@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="64" viewBox="0 0 170 64" fill="none">
+  <rect x="0" y="10" width="42" height="42" rx="12" fill="#173B6D"/>
+  <path d="M21 39V25" stroke="white" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M21 29.5C14.8 29.5 10.8 25.5 10.8 19.7C17 19.7 21 23.7 21 29.5Z" stroke="white" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M21 32.2C27.2 32.2 31.2 28.2 31.2 22.4C25 22.4 21 26.4 21 32.2Z" stroke="white" stroke-width="2.6" stroke-linejoin="round"/>
+
+  <text x="52" y="24" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#1F2937">Ch?cara</text>
+  <text x="52" y="41" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="800" fill="#173B6D">BOT</text>
+</svg>

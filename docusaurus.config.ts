@@ -12,7 +12,7 @@ const whatsappUrl =
 const config: Config = {
   title: 'Chácara Bot',
   tagline: 'Um espaço para reunir, celebrar e aproveitar',
-  favicon: 'img/favicon.svg',
+  favicon: 'img/favicon-blue.svg',
 
   future: {
     v4: true,
@@ -73,7 +73,7 @@ const config: Config = {
       title: 'Chácara Bot',
       logo: {
         alt: 'Chácara Bot',
-        src: 'img/logo.svg',
+        src: 'img/logo-blue.svg',
       },
       items: [
         {to: '/#espaco', label: 'O espaço', position: 'right'},
