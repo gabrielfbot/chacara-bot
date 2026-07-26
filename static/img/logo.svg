@@ -1,12 +1,6 @@
-﻿<svg width="220" height="56" viewBox="0 0 220 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="56" height="56" rx="14" fill="#173B6D"/>
-  <circle cx="28" cy="22" r="9" stroke="white" stroke-width="2.4"/>
-  <path d="M28 31V41" stroke="white" stroke-width="2.4" stroke-linecap="round"/>
-  <path d="M28 25C25.5 24 22.8 22.2 21 19.4" stroke="white" stroke-width="2.2" stroke-linecap="round"/>
-  <path d="M28 25C30.5 24 33.2 22.2 35 19.4" stroke="white" stroke-width="2.2" stroke-linecap="round"/>
-  <path d="M28 27.5C25.8 27.2 23.6 26.1 22 24.5" stroke="white" stroke-width="2.1" stroke-linecap="round"/>
-  <path d="M28 27.5C30.2 27.2 32.4 26.1 34 24.5" stroke="white" stroke-width="2.1" stroke-linecap="round"/>
-
-  <text x="66" y="24" fill="#1E1E1E" font-family="Georgia, serif" font-size="17" font-weight="700">Chácara</text>
-  <text x="66" y="43" fill="#173B6D" font-family="Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="1">BOT</text>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="64" height="64" rx="16" fill="#173B6D"/>
+  <path d="M32 50V29" stroke="white" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M32 35C23 35 17 29 17 20C26 20 32 26 32 35Z" stroke="white" stroke-width="3.2" stroke-linejoin="round"/>
+  <path d="M32 39C41 39 47 33 47 24C38 24 32 30 32 39Z" stroke="white" stroke-width="3.2" stroke-linejoin="round"/>
 </svg>
