@@ -9,6 +9,15 @@ const whatsappMessage =
 const whatsappUrl =
   `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
+
+const andreWhatsappNumber = '5517997034350';
+
+const andreWhatsappMessage =
+  'Ol\u00e1, Andr\u00e9! Vi a p\u00e1gina da Ch\u00e1cara Bot e gostaria de consultar datas, valores e disponibilidade.';
+
+const andreWhatsappUrl =
+  `https://wa.me/${andreWhatsappNumber}?text=${encodeURIComponent(andreWhatsappMessage)}`;
+
 const config: Config = {
   title: 'Chácara Bot',
   tagline: 'Um espaço para reunir, celebrar e aproveitar',
@@ -106,14 +115,18 @@ const config: Config = {
           ],
         },
         {
-          title: 'Contato',
-          items: [
-            {
-              label: 'WhatsApp: (17) 99169-6958',
-              href: whatsappUrl,
-            },
-          ],
-        },
+        title: 'Contato',
+        items: [
+          {
+            label: 'Andressa: (17) 99169-6958',
+            href: whatsappUrl,
+          },
+          {
+            label: 'Andr\u00e9: (17) 99703-4350',
+            href: andreWhatsappUrl,
+          },
+        ],
+      },
       ],
       copyright: `© ${new Date().getFullYear()} Chácara Bot. Todos os direitos reservados. Página desenvolvida pela Eletrobot Engenharia.`,
     },
